@@ -4,6 +4,14 @@
 
 ---
 
+## The Inspiration
+
+This project was born after reading Alpha Design Global's excellent article ["10 Best Modern AI Website Designs to Clone"](https://medium.com/@alphadesignglobal/10-best-modern-ai-website-designs-to-clone-c395db287fd6). The article showcases stunning AI website designs from companies like Linear, Vercel, and OpenAI—and it sparked a question: *What if I could automate the process of extracting and applying these design systems?*
+
+Using [Claude Code](https://claude.ai/code), I built Design Cloner in a single session—an AI-powered tool that does exactly that.
+
+---
+
 ## The Problem: Design System Friction
 
 Every developer knows the pain. You're starting a new project, you've found the perfect design inspiration—maybe it's Linear's sleek dark interface, Vercel's clean minimalism, or OpenAI's elegant simplicity. But translating that visual inspiration into a usable design system? That's hours of work: inspecting elements, copying hex codes, guessing font scales, and manually crafting CSS variables.
@@ -464,17 +472,21 @@ Below are four prompts for generating illustrations to accompany this article:
 
 ### Image 1: Hero/Header Illustration
 
+> **Inspiration Credit:** This project was inspired by the article ["10 Best Modern AI Website Designs to Clone"](https://medium.com/@alphadesignglobal/10-best-modern-ai-website-designs-to-clone-c395db287fd6) by Alpha Design Global, which showcases the stunning design systems of modern AI companies.
+
 ```
 A sleek, modern digital illustration showing the transformation of a website
 into design tokens. On the left side, show a stylized browser window displaying
-a minimal dark-themed website (similar to Linear or Vercel aesthetic). Flowing
-lines and particles connect to the right side showing floating design elements:
+a minimal dark-themed website (similar to Linear or Vercel aesthetic, inspired
+by the "10 Best Modern AI Website Designs to Clone" article). Flowing lines
+and particles connect to the right side showing floating design elements:
 color swatches in purple and blue gradients, typography specimens, rounded
 rectangles representing components, and subtle grid patterns. The style should
 be clean, professional, with a dark background (#0D0D0D), glowing accent
 colors (#6366f1, #8b5cf6), and a sense of intelligent automation. Include
-subtle circuit-board patterns suggesting AI processing. 16:9 aspect ratio,
-suitable for a blog hero image.
+subtle circuit-board patterns suggesting AI processing. Add a small visual
+nod to the concept of "cloning" beautiful designs—perhaps a DNA helix or
+copy icon integrated subtly. 16:9 aspect ratio, suitable for a blog hero image.
 ```
 
 ---
